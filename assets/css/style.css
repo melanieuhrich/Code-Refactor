@@ -1,30 +1,36 @@
+/* Universal Selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Establishes background color of the body */
 body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* Establishes style of the header section */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+/* Establishes the style of the <h1> tag in the header section */
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* Establishes the style of the seo class in the header section */
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* Establishes the style of the <div> tag in the header section */
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +38,24 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* Establishes the style of the list in the header section */
+header div ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/* Establishes the style of specific list elements in the header section */
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Establishes the style of the anchor elements in the list in the header section */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Establishes the style of the hero class */
 .hero {
     height: 10px;
     width: 100%;
@@ -59,81 +65,14 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Establishes the style of the content class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* .benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
-.benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* .benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-.benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* .benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
+/* Establishes the style of the blue class which was created to encompass matching code */
 .blue {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +100,7 @@ p {
     color: #ffffff;
 } */
 
+/* Establishes the height of the image in the blue class */
 .blue img {
     max-height: 200px;
 }
@@ -173,6 +113,7 @@ p {
     max-height: 200px;
 } */
 
+/* Establishes the margin and font size of the <h2> tag in the blue class */
 .blue h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,13 +129,101 @@ p {
     font-size: 36px; */
 }
 
-.footer {
-    padding: 30px;
+/* Establishes the font size of the <p> tag */
+p {
+    font-size: 16px;
+}
+
+/* Establishes the alignment and margin size of the float-left class */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Establishes the alignment and margin size of the float-right class */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Establishes the style of the benefits class */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Establishes the style of the benefit class */
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* .benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+} */
+
+/* Establishes the style of the <h3> tag in the benefit class */
+.benefit h3 {
+    margin-bottom: 10px;
     text-align: center;
 }
 
-.footer h2 {
+/* .benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+} */
+
+/* Establishes the dimensions of the image in the benefit class */
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* .benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+} */
+
+/* Establishes the style and dimensions of the footer */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* text-align: center; */
+}
+
+/* Establishes the style of the h2 section in the footer */
+footer h2 {
     font-size: 20px;
+    text-align: center;
+}
+
+/* Centers the text in the footer */
+footer p {
+    text-align: center;
 }
