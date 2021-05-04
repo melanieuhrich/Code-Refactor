@@ -1,6 +1,6 @@
 # Code Refactor
 
-This code refactor yields a functioning website with description and images for Horiseon. 
+This Code Refactor yields a functioning website with description and images for Horiseon. 
 
 All links work and all images have have been given alt attributes for accessibility purposes.
 
