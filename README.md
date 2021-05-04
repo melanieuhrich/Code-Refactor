@@ -1,27 +1,17 @@
-# Purpose of Assignment 
+# Code Refactor
 
-Establish functioning and professional website. 
+This code refactor yields a functioning website with description and images for Horiseon. 
 
-Improve readability and efficiency of existing code.
+All links work and all images have have been given alt attributes for accessibility purposes.
 
-Add alt attributes for page accessibility. 
+## Contact 
 
-# What I did and why 
-
-Added a professional title to the title tag. 
-
-Eliminated unnecessary classes and combined classes with the same CSS for better readability. 
-
-Changed main div tags to section tags. 
-
-Added alt attributes to images for accessibility purposes. 
-
-Put CSS in sequential order. 
+If you wish to contact me you can reach me at melanieuhrich13@gmail.com. 
 
 # Image 
 
-![Alt text](/img.png? "Assignment Screenshot")
+![Alt text](./Assets/images/img.png "Assignment Screenshot")
 
-# Link to application 
+# Link to deployed application 
 
-https://melanieuhrich.github.io/Homework-1/
+https://melanieuhrich.github.io/Code-Refactor/
