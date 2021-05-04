@@ -10,7 +10,7 @@ If you wish to contact me you can reach me at melanieuhrich13@gmail.com.
 
 # Image 
 
-![Screenstot](./Assets/images/img.png "Assignment Screenshot")
+![screenshot](./Assets/images/img.png "Assignment Screenshot")
 
 # Link to deployed application 
 
